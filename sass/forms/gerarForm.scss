@@ -1,0 +1,8 @@
+.Form{
+    $gerar: true;
+
+    @if $gerar == true{
+        @import 'contato';
+        @import 'ouvidoria';
+    };
+}

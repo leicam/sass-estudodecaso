@@ -3,14 +3,17 @@
 **/
 .formulario{
     padding: 20px;
+
+    label{
+        display: block;
+        margin-top: 20px;
+
+        &:first-child{
+            margin-top: 0px;
+        }
+    }
 }
-.formulario label{
-    display: block;
-    margin-top: 20px;
-}
-.formulario label:first-child{
-    margin-top: 0px;
-}
+
 .formulario input, .formulario select,
 .formulario textarea{
     display: block;
